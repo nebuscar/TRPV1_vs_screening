@@ -1,0 +1,35 @@
+activity:
+  strong_binder_pchembl_min: 6.0
+  weak_or_inactive_pchembl_max: 5.0
+  strong_binder_nm_max: 1000.0
+  weak_or_inactive_nm_min: 10000.0
+  preferred_standard_types:
+    - IC50
+    - Ki
+    - Kd
+    - EC50
+screening:
+  primary_target: TRPV1
+  decoy_targets:
+    - TRPV2
+    - TRPV3
+    - TRPV4
+    - TRPA1
+  top_fraction_for_pose_review: 0.01
+  admet_required:
+    lipinski_violations_max: 1
+    veber_pass: true
+docking:
+  engine: vina
+  exhaustiveness: 16
+  n_poses: 5
+  seed: 42
+model:
+  split: scaffold
+  metrics:
+    - roc_auc
+    - pr_auc
+    - mcc
+    - ef1
+    - ef5
+    - bedroc

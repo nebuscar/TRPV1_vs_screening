@@ -1,0 +1,10 @@
+数据/结果,文件,行数,列数
+ChEMBL TRP raw activity,outputs/01.ligands/chembl_trp_activity_raw.csv,10619,16
+Activity model table,outputs/01.ligands/trp_activity_model_table.csv,7562,9
+TRPV1 binding binary table,outputs/01.ligands/trpv1_binding_binary_table.csv,3774,10
+TRPV1 vs non-V1 auxiliary table,outputs/01.ligands/trpv1_vs_nonv1_selectivity_table.csv,5254,13
+Unknown ChEMBL drug-like raw library,outputs/04.unknown_chembl_screen/chembl_druglike_unknown_raw.csv,99999,6
+Unknown library scored,outputs/04.unknown_chembl_screen/chembl_druglike_unknown_scored.csv,99999,21
+Top putative new hits,outputs/04.unknown_chembl_screen/top100_putative_new_hits.csv,100,21
+Diverse top hits,outputs/04.unknown_chembl_screen/top20_diverse_putative_new_hits.csv,20,24
+8X94 Vina docked hits,outputs/06.docking/8x94_top_hits/top20_vina_scores.csv,20,11

@@ -1,0 +1,16 @@
+name: trpv1_vs
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - scikit-learn
+  - scipy
+  - rdkit
+  - pyyaml
+  - requests
+  - joblib
+  - pip
+  - pip:
+      - chembl_webresource_client

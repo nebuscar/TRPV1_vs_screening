@@ -1,0 +1,22 @@
+name: trpv1_vs310
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - pandas
+      - numpy<2
+      - scipy
+      - scikit-learn
+      - matplotlib
+      - pyyaml
+      - requests
+      - joblib
+      - rdkit
+      - vina
+      - meeko
+      - gemmi
+      - py3Dmol
+      - biopython
+      - chembl_webresource_client
